@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="/">Home</a>
+                <a href="/addbook">ADD</a>
+                <input type="text" placeholder="Search..">
+              </div>
+        </nav>
+    </head>
+    <form action="/addbook" method="post">
+        <div class="NameUsers">
+         <div style="display: inline;">
+        <p>
+         Name is:<input type="text" size="30" name="uploaded_by">
+        </p>
+        </div>   
+        </div>
+        <div>
+            <p style="margin-top: 15px;">Name of book:<input type="text"  size="24" name="title"></p> 
+            <p style="margin-top: 15px;"> summary:<input type="text"  size="29" name="descreption"></p>
+            <p style="margin-top: 15px;">number of page is: <input type="text" name="page"></p>
+            <p style="margin-top: 15px;">author name: <input type="text" size="25" name="author"></p>
+        </div>
+        <button type="submit">ADD</button>
+    </form>
+</body>
+</html>
